@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Voting {
+  public static void main(String args[]) {
+    Scanner s = new Scanner(System.in);
+
+    int num = 0;
+    System.out.println("Enter the number to check he/she is eligible or not for Voting ");
+    num = s.nextInt();
+    if (num>=18) {
+      System.out.println(num + "is eligible for Voting");
+    } else {
+      System.out.println(num + "is not eligible for Voting");
+      
+    }
+    }
+  }

@@ -1,0 +1,10 @@
+class Shoppingbill {
+
+  public static void main(String args[]) {
+    int sb1 = 1000, sb2 = 2000, sb3 = 3000, total = 0, per = 0, salary = 10000;
+    total = sb1 + sb2 + sb3;
+    System.out.println("total of 3 shoppingbills:" + total);
+    per = (total * 100) / salary;
+    System.out.println("percentage of 3 shoppingbills:" + per);
+  }
+}
