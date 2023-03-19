@@ -1,0 +1,35 @@
+begin
+input num1,num2,num3,num4,num5,num6,num7
+print("enter the week num")
+if(num==1)
+{
+print("monday")
+}
+else if(num==2)
+{
+print("tuesday")
+}
+else if(num==3)
+{
+print("wednesday")
+}
+else if(num==4)
+{
+print("thursday")
+}
+else if(num==5)
+{
+print("friday")
+}
+else if(num==6)
+{
+print("saturday")
+}
+else if(num==7)
+{
+print("sunday")
+}
+else
+{
+print("invalid week no")
+}
